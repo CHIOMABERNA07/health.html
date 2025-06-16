@@ -1,129 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Health File</title>
-</head><i class="fa-regular fa-calendar-plus"></i>
-<body>
-   <p>Welcome to a Professional Health Care</p>     <nav><a href="#"><!--Phone:-->010-060-0160</a>
-    <a href="#"><!--Working Hours:-->6AM-10AM (MON-FRI)</a>
-    <a href="info@company.com"><!--Email Address--> </a> <hr>
-    <!--Logo goes here--> <h3>Health Centre</h3>     <nav><ul><li><a href="#">Home</a> </li> <br>
-    <li><a href="#">About Us</a> </li> <br>
-<li> <a href="#">Doctors</a> </li> <br>
-   <li><a href="#">News</a> </li> <br>
-<li><a href="#">Contact</a></li> <br></ul> <button>Make an Appointment</button></nav>
-</nav> <br>
-<section>
-<small>PELLENTESQUE NEC LIBERO NISI </small>
-<h1>Your Health Benefits</h1>
-<button>Read Stories</button>
-<img src="images/slider1.jpg"alt=""> <img src="images/slider2" alt=""> <img src="images/slider3" alt="">
-</section>
-<h2>Welcome to Your Health Center</h2>
-<p> Aenean luctus lobortis tellus, vel ornare enim molestie condimentum. Curabitur lacinia nisi vitae velit volutpat venenatis. Sed a dignissim lacus. Quisque fermentum est non orci commodo, a luctus urna mattis. Ut placerat, diam a tempus vehicula.
-   <img src="images/author-image.jpg" alt=""><p><h3>Dr. Neil Jackson</h3></p>
-   General Principal
-    <img src="images/about-bg.jpg"alt="">
-   <br>
-   <h2>Our Doctors</h2>
-   <img src="images/team-image1.jpg" alt="">
-   <h3>Nate Baston</h3>  
-   General Principal
-  <p>010-020-0120</p>
-   general@company.com <br>
-   <img src="images/team-image2.jpg" alt="">
-   <h3>Jason Stewart</h3>
-   Pregnancy
-   <p>010-070-0170</p>
-   pregnancy@company.com <br>
-   <img src="images/team-image3" alt="">
-   <h3>Miasha Nakahara</h3>
-   Cardiology
-   <p>010-040-0140</p>
-   cardio@company.com
-   <br>
-   <br>
-   <div>
-      <section>
-   <h2>Latest News</h2>
-   <img src="images/newsimage1.jpg" alt="">
-   <small>March 08,2018</small>
-   <h3>About Amazing Technology</h3>
-  <bold><small>Jeremie Carison</small></bold>
-   CEO/Founder <br>
-   <img src="images/news-image2.jpg" alt="">
-   <small>February 20,2018</small>
-  <h3>Introducing a new healing process</h3>
-  <img src="images/author-image.jpg" alt="">
-  <bold><small>Jason Stewart</small></bold>
- <small>General Director</small>
-<br>
- <img src="images/news-image3.jpg" alt="">
- <small>January 27,2018</small>
- <h3>Review Annual Medical Research</h3>
- <img src="images/author-image.jpg" alt="">
- <small>Andrio Abero</small>
- <small>Online Advertising</small>
-</section>
-   </div>
-   <div>
-      <section>
-         <img src="images/appointment-image" alt="">
-         <h2>Make An Appointment</h2>
-         <form>
-            <label>Name:</label>
-            <input type="text"
-            name="full name"
-            placeholder="Type your name here" />
-            <label>Select Date:</label> 
-            <input type="number"
-            name="mm/dd/yy"
-            value="07072004"
-            placeholder="Date of Birth goes here" />
-            <label>Phone Number:</label>
-            <input type="number"
-            name="Phone"
-            value="(+234)9000000000"
-            placeholder="Phone number goes here" />
-            <label>Email</label>
-            <input type="email address"
-            name="Your Email"
-            placeholder="Your Email goes here" />
-            <br>
-            <br>
-            <button>Submit Button</button>
-         </form> 
-   </section>
-</div>
-<!-- Map goes here -->  <map name="GoogleMaps"></map>
-<footer>
-   <h3>Contact Info</h3>
-   Phone: 010-070-0170
-   Email: info@company.com <br>
-   
-<h3>Latest News</h3>
-<img src="images/news-image.jpg" alt="">
-<small><bold>Amazing Technology</bold></small>
-<small>March 08, 2018</small> <br>
-<img src="images/news-image.jpg" alt="">
-<small><bold>New Healing Process</bold></small>
-<small>February 20, 2018</small> <br>
-<h3>Opening Hours</h3>
-<small>Monday-Friday 8:00AM-10:00PM
-   Saturday 9:00AM-8:00PM
-   Sunday Closed
-</small>
-
-
-</footer>
-
-
-   
-
-
-
-
-</body>
-</html>
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Center</title>
+  <link rel="stylesheet" href="style.css">
+</head><body>
+  <!-- Top Bar -->
+  <div class="topbar">
+    <p>010-060-0160 | 6:00AM - 10:00PM (Mon-Fri) | info@company.com</p>
+  </div>  <!-- Navigation -->  <nav class="navbar">
+    <div class="logo">Health Center</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#doctors">Doctors</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>  <!-- Hero Section -->  <header class="hero">
+    <img src="images/slider1.jpg" alt="Slider Image">
+    <div class="hero-text">
+      <h1>Welcome to Your Health Center</h1>
+      <p>Aenean luctus lobortis tellus, vel ornare enim molestie condimentum.</p>
+    </div>
+  </header>  <!-- About Section -->  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Curabitur lacinia nisi vitae velit volutpat venenatis. Sed a dignissim lacus. Quisque fermentum est non orci commodo, a luctus urna mattis.</p>
+  </section>  <!-- Doctors Section -->  <section id="doctors" class="doctors">
+    <h2>Our Doctors</h2>
+    <div class="doctor-cards">
+      <div class="card">
+        <img src="images/team-image1.jpg" alt="Dr. Neil Jackson">
+        <h3>Dr. Neil Jackson</h3>
+        <p>General Principal</p>
+        <p>010-020-0120</p>
+        <p>general@company.com</p>
+      </div>
+      <div class="card">
+        <img src="images/team-image2.jpg" alt="Nate Baston">
+        <h3>Nate Baston</h3>
+        <p>Pregnancy</p>
+        <p>010-070-0170</p>
+        <p>pregnancy@company.com</p>
+      </div>
+      <div class="card">
+        <img src="images/team-image3.jpg" alt="Miasha Nakahara">
+        <h3>Miasha Nakahara</h3>
+        <p>Cardiology</p>
+        <p>010-040-0140</p>
+        <p>cardio@company.com</p>
+      </div>
+    </div>
+  </section>  <!-- News Section -->  <section id="news" class="news">
+    <h2>Latest News</h2>
+    <div class="news-cards">
+      <div class="card">
+        <img src="images/news-image1.jpg" alt="News 1">
+        <h3>Review Annual Medical</h3>
+        <p>March 08, 2018</p>
+        <p>Jeremie Carlson - CEO / Founder</p>
+      </div>
+      <div class="card">
+        <img src="images/news-image2.jpg" alt="News 2">
+        <h3>Introducing a New Healing Process</h3>
+        <p>February 20, 2018</p>
+        <p>Jason Stewart - General Director</p>
+      </div>
+      <div class="card">
+        <img src="images/news-image3.jpg" alt="News 3">
+        <h3>Research and Technology</h3>
+        <p>January 27, 2018</p>
+        <p>Andrio Abero - Online Advertising</p>
+      </div>
+    </div>
+  </section>  <!-- Appointment Section -->  <section class="appointment">
+    <h2>Make an Appointment</h2>
+    <form>
+      <input type="text" placeholder="Full Name">
+      <input type="email" placeholder="Your Email">
+      <input type="date" placeholder="Select Date">
+      <select>
+        <option>General Health</option>
+        <option>Pregnancy</option>
+        <option>Cardiology</option>
+      </select>
+      <input type="tel" placeholder="Phone">
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>  <!-- Footer -->  <footer>
+    <p>Copyright © 2017 Your Company | Design: Tooplate</p>
+  </footer>
+</body></html>
