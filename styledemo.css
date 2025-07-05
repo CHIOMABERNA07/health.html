@@ -1,0 +1,111 @@
+/* style.css */
+
+/* Reset some default styles */
+
+*{
+     margin: 0; padding: 0 ; box-sizing:0 border-box;
+     }
+
+
+body { max-width: 50px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f9f9f9; color: #333; }
+
+.topbar { background: white; color:black; font-size: 0.9rem; margin:2px
+}
+.first{
+     text-align: left;
+     margin-top: 20px;
+     margin-left: 70px;
+
+
+}
+.info{
+     text-align: end;
+     margin-right: 70px;
+     margin-top: 5px;
+     padding-top: 2px;
+}
+
+.navbar { display: flex; justify-content: space-between; align-items: center; background: #fff; padding: 10px 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+ }
+.logo{ width: 100px;
+     margin-left: 50px;
+     padding: 5px;
+     margin-top: 1px;
+
+}
+#appbutton{
+     color: white;
+     background-color: lightgreen;
+     border-radius: 4px;
+     padding: 10px;
+     border-color: lightgreen;
+     margin-right: 70px;
+
+}
+
+.home{
+     margin-top: 12px;
+}
+.navbar ul { list-style: none; display: flex; gap: 20px; }
+
+.navbar ul li a { text-decoration: none; color: #333; font-weight: 500; }
+
+.hero { position: relative; }
+
+.image-container {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+
+}
+
+.full-width-image{
+     display: block;
+     width: 20px;
+     height: 10px;
+        
+}
+.slider3{
+     width: 10px;
+     height: 10px;
+}
+.read{
+     color: white;
+     border-radius: 4px;
+     background-color: #1e88e5;
+}
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+
+.hero-text h1 { font-size: 2rem; margin-bottom: 10px; }
+
+section { padding: 60px 20px; text-align: center; background: #fff; margin-top: 20px; }
+
+section:nth-of-type(even) { background: #f2f2f2; }
+
+.doctor-cards, .news-cards { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 30px; }
+
+.card { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); max-width: 280px; }
+
+.card img { width: 100%; border-radius: 10px; margin-bottom: 10px; }
+
+.card h3 { color: #1e88e5; margin-bottom: 5px; }
+
+.appointment form { max-width: 600px; margin: 0 auto; display: grid; grid-template-columns: 1fr; gap: 15px; }
+
+.appointment input, .appointment select, .appointment textarea { padding: 10px; border: 1px solid #ccc; border-radius: 6px; width: 100%; font-size: 1rem; }
+
+.appointment button { background: #1e88e5; color: white; padding: 12px; border: none; border-radius: 6px; font-size: 1rem; cursor: pointer; }
+
+footer { background: #2d3e50; color: #fff; text-align: center; padding: 20px; font-size: 0.9rem; margin-top: 40px; }
